@@ -1,6 +1,6 @@
 # Money Exchanger
 
-####Start
+#### Start
 ```
 git clone git@github.com:egorzot/currency_exchanger.git
 
@@ -16,7 +16,7 @@ docker-compose run php-fpm bin/console doctrine:fixtures:load
 Open [http://localhost/](http://localhost/)
 
 
-####Tests
+#### Tests
 
 ```
 docker-compose run php-fpm  ./bin/phpunit
